@@ -1,0 +1,40 @@
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, pink,rgb(77, 77, 248));
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.disclaimer-premium .disclaimer-premium__text{
+    flex-shrink: 0; /* mantem o tamanho da caixa que engloba o texto. Nao encolhe */
+}
+
+.disclaimer-premium .disclaimer-premium__text .disclaimer-premium__title{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 0 5px;
+    font-size: 14px;
+}
+.disclaimer-premium .disclaimer-premium__text .disclaimer-premium__subtitle{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.disclaimer-premium .disclaimer-premium__button button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 150px;
+    font-weight: 600;
+    flex-shrink: 0;
+    cursor: pointer;
+}
