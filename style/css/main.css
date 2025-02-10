@@ -144,7 +144,7 @@
 .grid-container {
   grid-gap:24px;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 4fr));
   min-width: 767px;
 }
 
@@ -193,7 +193,7 @@
 .card-text a {
   display: inline-block;
   max-width: 100%;
-  vertical-align: middle;
+  vertical-align:middle;
 }
 
 .artist-name {
